@@ -1,0 +1,13 @@
+body {
+	margin-top: 80px;
+}
+#header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #693;
+}

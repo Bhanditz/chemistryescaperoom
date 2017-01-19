@@ -1,7 +1,8 @@
 body {
 	background-color: #464646;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 .question {
 	margin-top: 80px;
@@ -39,4 +40,7 @@ a.hover {
 	height: 80px;
 	display: flex;
 	justify-content: center;
+}
+.submitButton {
+	margin-top: 10px;
 }

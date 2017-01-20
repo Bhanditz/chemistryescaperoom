@@ -4,6 +4,9 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
+h6 {
+	
+}
 .question {
 	margin-top: 80px;
 }

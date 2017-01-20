@@ -4,9 +4,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
-h6 {
-	
-}
 .question {
 	margin-top: 80px;
 }
@@ -46,4 +43,9 @@ a.hover {
 }
 .submitButton {
 	margin-top: 10px;
+}
+.credits {
+	bottom: 5px;
+	color: white;
+	position: absolute;
 }

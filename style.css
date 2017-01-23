@@ -41,6 +41,7 @@ header {
 	height: 80px;
 	text-align:center;
 }
+<<<<<<< HEAD
 footer{
 	background-color:#555;
 	width:100%;
@@ -48,4 +49,13 @@ footer{
 	bottom:0px;
 	left:0px;
 	text-align:center;
+=======
+.submitButton {
+	margin-top: 10px;
+}
+.credits {
+	bottom: 5px;
+	color: white;
+	position: absolute;
+>>>>>>> origin/gh-pages
 }

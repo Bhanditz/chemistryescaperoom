@@ -1,5 +1,6 @@
 body {
 	background-color: #464646;
+	margin-top: 80px;
 }
 .flexBody{
 	display: flex;
@@ -48,4 +49,13 @@ footer{
 	bottom:0px;
 	left:0px;
 	text-align:center;
+}
+#passwordTextBox {
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.submitButton {
+	margin-top: 5px;
 }

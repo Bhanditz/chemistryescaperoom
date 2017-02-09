@@ -80,7 +80,7 @@ footer{
 	top:80px;
 	left:0px;
 	color:white;
-	overflow:scroll;
+	overflow-y:scroll;
 }
 
 .left{
@@ -93,4 +93,7 @@ footer{
 
 .in-bl{
 	display:inline-block;
+}
+#codeInputBox{
+	
 }

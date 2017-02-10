@@ -67,6 +67,10 @@ footer{
 	color:white;
 }
 
+#code{
+	height:50px;
+}
+
 #mainConsole{
 	display:none;
 	background-color:#444;
@@ -80,7 +84,7 @@ footer{
 	top:80px;
 	left:0px;
 	color:white;
-	overflow:scroll;
+	overflow-y:scroll;
 }
 
 .left{
@@ -93,4 +97,10 @@ footer{
 
 .in-bl{
 	display:inline-block;
+}
+
+#codeInputBox{
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }

@@ -67,6 +67,10 @@ footer{
 	color:white;
 }
 
+#code{
+	height:50px;
+}
+
 #mainConsole{
 	display:none;
 	background-color:#444;
@@ -94,6 +98,9 @@ footer{
 .in-bl{
 	display:inline-block;
 }
+
 #codeInputBox{
-	
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }

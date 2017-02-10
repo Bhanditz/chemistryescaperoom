@@ -13,7 +13,8 @@ function Enter(){
 		enteredCode.value = "";
 		enteredCode.placeholder = "Input Code";
 		if(CurrentCode == Codes.length){
-			
+			document.getElementById("codeInputBox").style.display = "none";
+			document.getElementById("title").innerHTML = "Nice job, you did it!";
 		}
 	}
 	else{

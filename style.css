@@ -7,27 +7,34 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
-#titleScreen {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-color: #ffffff;
-}
+
 .Credits{
 	font-size:15px;
 	color:#fff;
 }
 #fullScreen {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
-	font-size: 50px;
 	color: #ffffff;
+}
+#fullScreen h1{
+	text-align:center;
+	position:absolute;
+	left:0;
+	top:calc(50% - 150px);
+	width:100%;
+	font-size:100px;
+}
+#fullScreen h3{
+	text-align:center;
+	position:absolute;
+	left:0;
+	top:50%;
+	width:100%;
+	font-size:20px;
 }
 a {
 	color: #ffffff;
